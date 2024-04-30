@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: seashell;}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+.logo{
+    float: left;
+
+}
+
+
+.link-item{
+    padding: 15px;
+    transition: 4s;
+    border-bottom: black solid 1px;
+  
+}
+
+
+.nav-ul{
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+    margin-left: 70px;
+    
+    
+}
+.nav-ul li{
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.nav-ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    
+    
+
+}
+
+.nav-ul .link-item:hover{
+    border: 1px black solid;
+    
+    
+}
+.banner{
+    margin-top: 40px;
+    transition: 2s;
+}
+.banner:hover{
+    opacity: 0.8;
+    transform: scale(90% , 90%);
+}
+
+h2{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+.line1{
+    margin-left: 560px;
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.images{
+    position: relative;
+    height: 350px;
+
+}
+.photo{
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    color: rgb(0, 0, 0);
+    /* text-shadow: 2px 2px 2px rgb(125, 50, 0); */
+    
+}
+
+.icon{
+    visibility: hidden;
+    background-color: brown;
+}
+
+.photo:hover .icon{
+    visibility: visible;
+}
+
+.divs{
+    height: 400px;
+}
+
+.div1{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(234, 233, 232);
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    padding: 3px;
+}
+.div2 , .div3 {
+    width: 280px;
+    height: 300px;
+    background-color: #bcf0ff;
+    float: right;
+    margin-right: 15px;
+    transition: 1s;
+ 
+}
+.div2:hover {
+    
+    transform: scale(110%,110%);
+}
+.div3:hover{
+    
+    transform: scale(110%,110%);
+}
+.discount-item h3{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.discount-item h2{
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+.hh1234{
+    text-align: center;
+    height: 50px;
+}
+.h1234{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 70px;
+
+}
+
+
+.f{
+    position: relative;
+}
+.drop-down{
+    border: solid rgb(235, 235, 235) 2px;
+    width: 200px;
+    padding: 10px;
+    margin: 30px;
+    line-height: 20px;
+    position: absolute;
+    box-shadow: 10px 10px 30px 5px grey;
+    background-color: rgb(198, 198, 198);
+    visibility: hidden;
+    
+   
+    
+}
+.list-unstyled{
+    display: inline-block;
+}
+
+.drop-down .list-unstyled li{
+    list-style: none;
+    display: block;
+    
+   
+    
+
+}
+.drop-down .list-unstyled li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+   
+}
+.f:hover .drop-down{
+    visibility: visible;
+}
+.list-unstyled li a:hover{
+    color:blueviolet;
+}
+
+
+.item{
+    margin-bottom: 10%;
+    display: inline-block;
+}
+
+.item-image{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0.8;
+    transform:scalex(0);
+    transition: transform 0.2s;
+    
+}
+.overlay ul{
+    list-style: none;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+
+    
+    
+}
+.overlay ul li{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+
+}
+
+.item:hover .overlay{
+       transform: scalex(1);
+}
+
+.product-info span{
+    display: block;
+    margin: 5px 0;
+}
+
+.product-info i{
+    margin-top: 10px;
+}
+
+
+
+
